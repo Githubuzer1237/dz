@@ -1,0 +1,30 @@
+.container {
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+   justify-content: center;
+   align-items: center;
+}
+
+.bodybg {
+   transition: 0.4s;
+   background: #000;
+   color: #fff;
+}
+.hidden {
+   opacity: 0;
+}
+.red {
+   color: red;
+}
+img, p {
+   transition: 0.4s;
+}
+img {
+   width: 300px;
+   height: 400px;
+}
+button {
+   width: 300px;
+
+}
